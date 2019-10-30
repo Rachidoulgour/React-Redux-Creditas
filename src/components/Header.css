@@ -1,0 +1,19 @@
+ul{
+    list-style: none;
+    background-color: rgb(130, 53, 153);
+    margin-top: 0;
+    padding: .5rem;
+}
+ul li .navLink{
+    text-decoration: none;
+    color: #ffffff;
+    padding: .5rem;
+    
+}
+.navLink:hover{
+    background-color: rgb(223, 146, 247);
+    transition: .3s ease;
+}
+.active{
+    background-color: rgb(223, 146, 247);
+}
