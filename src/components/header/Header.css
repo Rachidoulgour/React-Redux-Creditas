@@ -1,3 +1,12 @@
+.headerHome{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(130, 53, 153);
+}
+.search{
+    justify-self: center;
+}
+
 ul{
     list-style: none;
     background-color: rgb(130, 53, 153);

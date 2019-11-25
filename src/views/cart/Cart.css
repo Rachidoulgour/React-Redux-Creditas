@@ -1,0 +1,14 @@
+.profileCart{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: rgb(130, 53, 153);
+}
+.congratulation{
+    margin: 20vh 30vw;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 1rem;
+}
+.congratulation span{
+    color: rgb(130, 53, 153);
+}

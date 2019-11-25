@@ -1,0 +1,16 @@
+.headerDos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(130, 53, 153);
+}
+.goBack{
+    color: white;
+    font-size: 2rem;
+    margin-left: 1vw;
+}
+.goBack:hover{
+    cursor: pointer;
+    color: rgb(233, 202, 243);
+    transition: 0.3s;
+}

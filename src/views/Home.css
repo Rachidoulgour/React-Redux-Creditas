@@ -1,0 +1,33 @@
+.serchRug{
+    text-align: center;
+    margin: 4vh 0;
+}
+.homeTiltle{
+    text-align: center;
+    color: rgb(65, 64, 64);
+}
+.home{
+    display: flex;
+    justify-content: center;
+    /* justify-items: center;
+    align-content: center; */
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.home-page{
+    display: flex;
+    flex-direction: row;
+    margin: 2vh 10vw;
+    padding: 1rem;
+    border: solid gray 1px;
+    border-radius: .5rem;
+}
+.imageHome{
+    max-width: 20vw;
+}
+.productAttributs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

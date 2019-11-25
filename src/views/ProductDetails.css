@@ -1,0 +1,30 @@
+.productDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5vh;
+    
+}
+.productData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.productData img{
+    max-width: 30vw;
+}
+.producttitleprice{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.selectSize{
+    margin-bottom: 10vh;
+}
+.purchase{
+    margin-top: 30vh;
+}
