@@ -65,7 +65,7 @@ class ProductDetails extends React.Component{
                     )}
                     <div className="selectSize">
                     <div>
-                        <span>Select rug's size</span>
+                        <span>Select rug's size:</span>
                     </div>
                         <div>
                             <label className="sizeRug">Large</label>

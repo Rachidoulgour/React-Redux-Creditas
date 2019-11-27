@@ -6,8 +6,7 @@ class ApiRequestService {
         
             const {data} = await axios.get('http://localhost:8080/api/v1/products/')
             console.log(data)
-            return data;
-                    
+            return data;            
     }
       
 }

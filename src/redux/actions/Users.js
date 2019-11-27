@@ -1,7 +1,7 @@
 import axios from 'axios';
 export function login(formData){
     const request=axios.post('http://localhost:8080/api/v2/user/',formData).then(res=>{
-        
+        console.log(res.data)
         return res.data
     })
     return {

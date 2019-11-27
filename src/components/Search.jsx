@@ -1,4 +1,5 @@
 import React from 'react'
+import './Search.css'
 
 
 class Search extends React.Component{
@@ -20,7 +21,7 @@ class Search extends React.Component{
     render(){
         return(
             <div>
-                <input type="text" onKeyPress={this.handleKeyPress} placeholder="Search a product"/>
+                <input type="text" className="searchBar" onKeyPress={this.handleKeyPress} placeholder="Search a product"/>
                 <button>Search</button>
             </div>
         )

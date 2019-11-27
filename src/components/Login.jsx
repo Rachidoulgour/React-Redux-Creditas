@@ -2,7 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import {Link} from 'react-router-dom'
 import {login} from '../redux/actions/Users';
-//import { createBrowserHistory } from 'history'
 import './Login.css'
 
 
@@ -34,6 +33,10 @@ class Login extends React.Component{
         console.log(error)
     }  
   };
+  redirectToHome = () => {
+    const { history } = this.props;
+    if(history) history.push('/cart');
+   }
 
     render(){
         return(
@@ -46,7 +49,7 @@ class Login extends React.Component{
                     <input type="password"  name="password" placeholder="Password" value={this.state.password}
               onChange={this.handlenInputPassword} required/>
                     <Link to={'/cart'}> 
-                    <button type="submit">Log in</button> 
+                    <button type="submit" onClick={this.redirectToHome}>Log in</button> 
                     </Link>
                 </form>
             </div>
@@ -59,4 +62,4 @@ function mapStateToProps(state) {
     user: state.user
   };
 }
-export default connect(mapStateToProps)(Login);
+export default connect(mapStateToProps)(withRouter(Login));

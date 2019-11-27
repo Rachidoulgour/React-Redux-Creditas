@@ -9,11 +9,10 @@
 .home{
     display: flex;
     justify-content: center;
-    /* justify-items: center;
-    align-content: center; */
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 20vh;
 }
 .home-page{
     display: flex;

@@ -17,7 +17,7 @@ const Cart = props =>{
             <ProfileComponent/>
             </div>
                 <div className="congratulation">
-                    <h3>Congratulation <span>{user.login.username}</span></h3>
+                    <h3>Congratulation {user.login.username}</h3>
                     <h4>You bought new wonderful rug</h4>
                 </div>
             </div>
